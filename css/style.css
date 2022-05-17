@@ -777,7 +777,13 @@ h3.my-profession
     width: 100%;
     display: block;
 }
-
+.portfolio .portfolio-item-inner .portfolio-img a
+{
+    display: block;
+    width: 100%;
+    height: inherit;
+    z-index: 1;
+}
 /* contact  */
 
 .contact-title
@@ -891,6 +897,10 @@ h3.my-profession
 
 @media (max-width: 1199px)
 {
+    .about .section-title h2
+    {
+        margin-top: 120px;
+    }
     .section .container
     {
         padding-top: 70px;
